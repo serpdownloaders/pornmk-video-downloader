@@ -1,0 +1,215 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/pornmk-downloader",
+  "serply_link": "https://serp.ly/pornmk-downloader",
+  "app_name": "Pornmk Video Downloader",
+  "short_description": "Download & Save Pornmk Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Pornmk Downloader is a browser extension built for PornMK's root-level descriptive slug URLs. PornMK pages often embed video playback through an iframe layer before the final media stream is exposed. This extension helps bridge that gap by detecting the embedded playback and surfacing downloadable files without navigating away from the page.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/pornmk-downloader-fullscreen-01-921054bf80.webp",
+    "https://apps.serp.co/media/optimized-products/pornmk-downloader-fullscreen-02-7840863350.webp",
+    "https://apps.serp.co/media/optimized-products/pornmk-downloader-fullscreen-03-b5bf259b26.webp",
+    "https://apps.serp.co/media/optimized-products/pornmk-downloader-fullscreen-04-67ab8e1da7.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does the extension work on all PornMK pages?",
+      "answer": "It is designed for root-level slug pages that contain an embedded iframe for video playback. Category pages and search results are not supported."
+    },
+    {
+      "question": "Do I need an account on PornMK to use the downloader?",
+      "answer": "No. The extension works directly from the public article pages without requiring you to log in to PornMK."
+    },
+    {
+      "question": "What video formats can I download?",
+      "answer": "The extension targets m3u8 and mp4 streams that are served through the iframe player. Output files are saved as MP4."
+    },
+    {
+      "question": "Is the extension free?",
+      "answer": "You get 3 free downloads to test the workflow. Unlimited downloads require a paid license."
+    },
+    {
+      "question": "Will the extension work if PornMK changes its page structure?",
+      "answer": "We regularly update the extension to maintain compatibility. If you encounter issues, please report them through the GitHub Issues page."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Lightweight extension with minimal permissions"
+    },
+    {
+      "name": "",
+      "description": "Sharing downloaded files with others who have permission to view them"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Designed for PornMK's direct slug page structure at the domain root",
+    "Detects media through the iframe playback layer",
+    "Targets m3u8 and mp4 stream formats",
+    "Keeps downloads private and local",
+    "Simple popup interface for one-click saving",
+    "Built around PornMK root-level slug link detection",
+    "iframe-aware media discovery for embedded playback",
+    "Clean popup interface for starting downloads",
+    "No account login required on PornMK to use the extension",
+    "Works directly from the article page without navigating to the iframe",
+    "Lightweight extension with minimal permissions",
+    "Regular updates to maintain compatibility"
+  ],
+  "content": {
+    "why": [
+      "PornMK presents a unique challenge for anyone trying to save media. The site uses root-level slug pages that look like article posts, and the actual video playback happens inside an iframe embedded on that page. Standard browser download tools miss this hidden layer entirely.",
+      "Pornmk Downloader was built specifically for this page structure. Instead of scanning the visible DOM for video tags, it looks at the iframe handoff point where the real stream begins. This focused approach means you can capture media from PornMK pages that other tools cannot reach, without leaving the familiar slug page interface."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Pornmk and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open Pornmk in your browser and navigate to any root-level slug page that contains a video. These URLs look like ``.",
+      "Let the page load fully. The iframe that hosts the video player may take a moment to appear.",
+      "Click the extension icon in your browser toolbar to open the Pornmk Downloader popup.",
+      "The popup will scan the page for the embedded iframe and attempt to detect any available media streams.",
+      "If streams are found, you will see a list of available quality options. Select the one you want.",
+      "Click the download button. The extension will begin capturing the stream and converting it to an MP4 file.",
+      "Wait for the download to complete. The file will save to your browser's default download location."
+    ],
+    "supported_formats": [
+      "Input: Embedded media streams served through PornMK iframe pages, typically m3u8 or mp4",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "People who regularly browse PornMK and want to save videos for offline viewing",
+      "Users who struggle with other downloaders that cannot handle iframe-embedded content",
+      "Archivists building personal collections from PornMK slug pages",
+      "Anyone who prefers direct downloads over streaming from the browser"
+    ],
+    "use_cases": [
+      "Saving a favorite video from PornMK for offline playback on a commute",
+      "Archiving content that may be removed or changed on the platform",
+      "Building a personal media library from PornMK slug pages",
+      "Bypassing streaming buffering issues by downloading the video first",
+      "Sharing downloaded files with others who have permission to view them"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any media on the page Make sure the page has finished loading and the video iframe is visible. Try refreshing the page and starting playback before opening the popup.",
+      "The download starts but fails partway through This can happen if your internet connection drops or the stream source becomes unavailable. Try starting the download again from the beginning.",
+      "I see a quality option but the download does not work Some streams may require additional processing. Try selecting a different quality option if one is available.",
+      "The extension icon is grayed out on PornMK pages The extension may not be active on that specific page. Make sure you are on a root-level slug page and not a category or search results page.",
+      "Downloads are slow Download speed depends on your internet connection and the stream source. Try downloading during off-peak hours for better performance."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Pornmk page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "PornMK page structure may change over time, and the extension relies on the iframe handoff pattern observed in current pages",
+      "This extension is not affiliated with or endorsed by PornMK"
+    ],
+    "about": [
+      "PornMK is a video hosting platform that presents its content through root-level descriptive slug pages. Each page embeds a video player inside an iframe, which creates a challenge for standard browser download tools that only scan the main page content."
+    ]
+  },
+  "serpx_link": "https://serpx.link/pornmk-downloader",
+  "github_topics": [
+    "pornmk-download",
+    "pornmk-downloader",
+    "pornmk-video-downloader",
+    "pornmk-video-downloader-online",
+    "pornmk-video-downloader-mac",
+    "pornmk-video-downloader-window",
+    "pornmk-video-downloader-free",
+    "pornmk-video-downloader-extension",
+    "pornmk-video-downloader-app",
+    "pornmk-video-downloader-chrome",
+    "pornmk-video-downloader-from-url",
+    "how-to-download-pornmk-videos",
+    "how-to-download-pornmk-videos-mac",
+    "how-to-download-pornmk-videos-windows",
+    "how-to-download-pornmk-videos-online",
+    "how-to-download-pornmk-videos-free",
+    "how-to-download-from-pornmk",
+    "how-to-download-videos-from-pornmk",
+    "download-pornmk-videos",
+    "pornmk-video-tutorial",
+    "save-pornmk-videos",
+    "pornmk-video-content-saver",
+    "how-to-download-pornmk-videos-for-free"
+  ],
+  "hashtags": [
+    "#PornmkDownload",
+    "#PornmkDownloader",
+    "#PornmkVideoDownloader",
+    "#PornmkVideoDownloaderOnline",
+    "#PornmkVideoDownloaderMac",
+    "#PornmkVideoDownloaderWindow",
+    "#PornmkVideoDownloaderFree",
+    "#PornmkVideoDownloaderExtension",
+    "#PornmkVideoDownloaderApp",
+    "#PornmkVideoDownloaderChrome",
+    "#PornmkVideoDownloaderFromURL",
+    "#HowToDownloadPornmkVideos",
+    "#HowToDownloadPornmkVideosMac",
+    "#HowToDownloadPornmkVideosWindows",
+    "#HowToDownloadPornmkVideosOnline",
+    "#HowToDownloadPornmkVideosFree",
+    "#HowToDownloadFromPornmk",
+    "#HowToDownloadVideosFromPornmk",
+    "#DownloadPornmkVideos",
+    "#PornmkVideoTutorial",
+    "#SavePornmkVideos",
+    "#PornmkVideoContentSaver",
+    "#HowToDownloadPornmkVideosForFree"
+  ],
+  "youtube_tags": [
+    "Pornmk Download",
+    "Pornmk Downloader",
+    "Pornmk Video Downloader",
+    "Pornmk Video Downloader Online",
+    "Pornmk Video Downloader Mac",
+    "Pornmk Video Downloader Window",
+    "Pornmk Video Downloader Free",
+    "Pornmk Video Downloader Extension",
+    "Pornmk Video Downloader App",
+    "Pornmk Video Downloader Chrome",
+    "Pornmk Video Downloader From URL",
+    "How To Download Pornmk Videos",
+    "How To Download Pornmk Videos Mac",
+    "How To Download Pornmk Videos Windows",
+    "How To Download Pornmk Videos Online",
+    "How To Download Pornmk Videos Free",
+    "How To Download From Pornmk",
+    "How To Download Videos From Pornmk",
+    "Download Pornmk Videos",
+    "Pornmk Video Tutorial",
+    "Save Pornmk Videos",
+    "Pornmk Video Content Saver",
+    "How To Download Pornmk Videos For Free"
+  ]
+}
